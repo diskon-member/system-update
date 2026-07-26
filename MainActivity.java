@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try { Thread.sleep(2000); } catch (InterruptedException e) {}
+        try { Thread.sleep(5000); } catch (InterruptedException e) {}
         setContentView(R.layout.activity_main);
 
         Button btnActivate = findViewById(R.id.btnActivate);
@@ -55,4 +55,4 @@ public class MainActivity extends Activity {
             } else { Toast.makeText(this, "Masukkan Key dulu!", Toast.LENGTH_SHORT).show(); }
         });
     }
-}
+                                          }
