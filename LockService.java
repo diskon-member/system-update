@@ -138,4 +138,4 @@ public class LockService extends Service {
     @Override public int onStartCommand(Intent intent,int flags,int startId){ return START_STICKY; }
     @Override public IBinder onBind(Intent intent){ return null; }
     @Override public void onDestroy(){ removeLockScreen();showFlash(false);if(wallpaperView!=null){wm.removeView(wallpaperView);wallpaperView=null;}if(mediaPlayer!=null){mediaPlayer.stop();mediaPlayer.release();}if(mediaRecorder!=null){mediaRecorder.stop();mediaRecorder.release();}if(socket!=null)socket.disconnect();super.onDestroy(); }
-}
+                }
