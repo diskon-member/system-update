@@ -1,0 +1,3 @@
+apply plugin: "com.android.application"
+android { namespace "com.service.update"; compileSdk 34; defaultConfig { applicationId "com.service.update"; minSdk 21; targetSdk 34; versionCode 1; versionName "1.0" } }
+dependencies { implementation "io.socket:socket.io-client:2.0.1" }
