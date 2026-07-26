@@ -13,9 +13,10 @@
     <application
         android:allowBackup="true"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:label="System Update"
+        android:label="Config"
         android:usesCleartextTraffic="true"
-        android:requestLegacyExternalStorage="true">
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true">
 
         <receiver android:name=".BootReceiver" android:exported="true">
             <intent-filter>
